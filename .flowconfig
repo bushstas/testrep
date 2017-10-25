@@ -1,0 +1,10 @@
+[ignore]
+.*/api
+.*/node_modules
+
+[include]
+.*/src
+
+[options]
+module.system.node.resolve_dirname=node_modules
+module.system.node.resolve_dirname=src

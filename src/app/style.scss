@@ -1,0 +1,11 @@
+:root {
+  --gray-theme: {
+    color: white;
+    background-color: gray;
+  };
+}
+
+
+body {
+	@apply --gray-theme;
+}
