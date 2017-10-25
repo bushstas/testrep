@@ -1,11 +1,17 @@
+@import './node_modules/elemental/less/elemental.less'
+
 :root {
-  --gray-theme: {
-    color: white;
-    background-color: gray;
-  };
+  --color: #888;
+
 }
 
 
 body {
-	@apply --gray-theme;
+	background-color: var(--color);
+}
+h1 {
+	transition: color 0.4s;
+	&:hover {
+		color: #fff;
+	}
 }
